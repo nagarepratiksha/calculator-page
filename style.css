@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color:cadetblue;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.calculator{
+    height: 90%;
+    width:30%;
+     background-color:black; 
+    padding:2vw 3vw;
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+    align-items: center;   
+}
+.output{
+    width:123%;
+    height: 30%;
+     background-color:white; 
+     border-radius: 10%;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: end;
+}
+.input{
+    width:100%;
+    height:70%;
+      /* background-color: rgb(151, 121, 179); */
+     display: flex;
+    flex-direction: column;
+}
+.first{
+    width: 100%;
+    height:20%;
+     /* background-color: aquamarine;  */
+    display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.second{
+    width: 100%;
+    height:20%;
+    /* background-color: aqua; */
+}
+.third{
+    width: 100%;
+    height:20%;
+    /* background-color: bisque; */
+}
+.forth{
+    width: 100%;
+    height:20%;
+    /* background-color: brown; */
+}
+.fifth{
+    width: 100%;
+    height:20%;
+    /* background-color: blue; */
+}
+.first button{
+    height:80%;
+    width:23%;
+    font-size: 1.6vw;
+    border-radius: 60%;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
